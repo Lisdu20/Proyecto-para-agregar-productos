@@ -1,0 +1,73 @@
+/* Fondo del formulario */
+body {
+    background-color: rgb(252, 225, 255); 
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+    width: 100%;
+    text-align: center;
+}
+
+
+input[type="text"], input[type="number"] {
+    background-color: rgb(255, 185, 236);
+    width: 100%; 
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px;
+    border-color:pink purple pink purple;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+.boton {
+    width: 100%;
+    padding: 12px;
+    background-color: blueviolet; 
+    color: white; 
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.mensaje {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: none;
+    min-width: 200px;
+    text-align: center;
+}
+
+.exito { 
+    background-color: #4CAF50; 
+    color: white; 
+}
+
+.error { 
+    background-color: #f44336; 
+    color: white; 
+}
